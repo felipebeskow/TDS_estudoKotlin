@@ -1,0 +1,45 @@
+1.Falar sobre o kotlin
+
+
+2.Exemplo de Olá Mundo
+
+	Em java:
+		public class OlaMundo {
+		    public static void main(String[] args) {
+		        System.out.println("Olá Mundo!");
+		    }
+		}
+
+
+3.Exemplo de Função(SOMA)
+
+
+4.Exemplo de Criar Classe Passaro
+
+	class Book {
+	    var title: String
+	    var isbn: Long
+ 
+	    constructor(title: String, isbn: Long) {
+        	this.title = title
+	        this.isbn = isbn
+	    }
+	}
+
+	val book = Book()
+
+	class Book constructor(title: String, isbn: Long) {
+	    var title: String
+	    var isbn: Long
+ 
+	    init {
+	       this.title = title
+	       this.isbn = isbn
+	    }
+	}
+	
+	class Book constructor(var title: String, var isbn: Long)
+
+
+5.Herdar Classe Passaro para Pato
+
